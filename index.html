@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Assignment 5 | CS 437</title>
+        <title>Perceptron Training</title>
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
         <link rel="manifest" href="site.webmanifest">
@@ -13,18 +13,24 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
     </head>
     <body>
-        <h1>Sam Messina - CS 436 Assignment 5</h1>
+        <h1>Perceptron Training</h1>
+        <h2>Sam Messina</h2>
         <p><b> How This Works </b> </p> 
         <ol>
             <li>Select a value for theta, alpa, max iterations, and inital weights</li>
             <li>Click "Submit"</li>
-            <li>The graph will populate with a best fit line, calculated using the values supplied for theta, alpha, max iterations, and inital weights</li>
+            <li>The graph will populate with a best fit line that divides the white and black</li>
+            <ul><li>The graph is calculated using the values supplied for theta, alpha, max iterations, and inital weights</li></ul>
+
+            
         </ol>
         <p><b> Items of note: </b> </p>
         <ul>
+          <li>The two problems are simply different placement of the initial points</li>
             <li>Max iterations is the maximum number of epochs to be run by the perceptron training algorithm. The system will stop at that number, regardless of any outstanding errors</li>
-            <li>Theta, alpha, and max iterations have been populated with possible values that make sense, given the nature of the perceptron training algorithm</li>
-            <li>You will get different best fit lines every time you click submit, as the perceptron will be re-trained</li>
+            <li>Theta, alpha, and max iterations are plyable constants, which can be tweaked to train the perceptron faster.</li>
+            <ul><li>These have been populated with possible values that make sense, given the nature of the perceptron training algorithm</li></ul>
+            <li>You will get different best fit lines every time you click submit, as the perceptron will be re-trained from scratch</li>
             <li>Random weights use values between -.5 and .5</li>
         </ul>
 
